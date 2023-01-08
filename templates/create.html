@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+<title>Create</title>
+{% endblock %}
+
+
+{% block content %}
+<h1 style="text-align: center;">Cerw</h1>
+<form method="post">
+  <input type="text" class="form-control" name="title" id="title">
+  <input type="text" class="form-control" name="status" id="status">
+  <button class="button" type="submit">Добавить позицию</button>
+</form>
+{% endblock %}
