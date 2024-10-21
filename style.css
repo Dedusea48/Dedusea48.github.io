@@ -6,13 +6,13 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background: #333;
+    background: #b22222;
     color: #fff;
     padding: 80px 0;
     text-align: center;
@@ -38,13 +38,14 @@ header .btn {
 }
 
 section.features {
-    background-color: #fff;
+    background-color: #f4f4f4;
     padding: 40px 0;
 }
 
 section.features h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: #b22222;
 }
 
 .feature-item {
@@ -60,7 +61,7 @@ section.features h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #b22222;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -78,4 +79,22 @@ footer ul li {
 footer ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+section.about h2 {
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+section.about p {
+    margin-bottom: 20px;
+}
+
+section.about ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+section.about ul li {
+    margin-bottom: 10px;
 }
