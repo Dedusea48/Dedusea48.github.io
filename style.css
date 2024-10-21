@@ -57,6 +57,7 @@ section.features h2 {
 
 .feature-item img {
     max-width: 300px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
